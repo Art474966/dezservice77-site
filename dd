@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ДезСервис77 — уничтожение клопов и тараканов в Москве и МО</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: #f0f4f3; color: #333; }
+    header { background: #14532d; color: white; padding: 40px 20px; text-align: center; }
+    header img { height: 80px; margin-bottom: 10px; }
+    header h1 { margin: 0; font-size: 36px; }
+    header p { font-size: 18px; margin-top: 10px; }
+    nav { background: #166534; color: white; padding: 15px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    nav a { color: white; margin: 0 20px; text-decoration: none; font-weight: 500; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; background: white; margin-top: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    h2 { color: #14532d; font-size: 28px; margin-bottom: 20px; }
+    ul { padding-left: 20px; }
+    footer { background: #14532d; color: white; text-align: center; padding: 25px 10px; margin-top: 30px; font-size: 14px; }
+    .contact { font-size: 18px; }
+    .button { background: #22c55e; color: white; padding: 12px 24px; text-decoration: none; display: inline-block; border-radius: 6px; margin-top: 15px; font-size: 16px; transition: background 0.3s ease; }
+    .button:hover { background: #16a34a; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .highlight { background: #ecfdf5; padding: 20px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Логотип ДезСервис77">
+    <h1>ДезСервис77</h1>
+    <p>Профессиональная дезинсекция в Москве и Московской области</p>
+  </header>
+
+  <nav>
+    <a href="#services">Услуги</a>
+    <a href="#prices">Цены</a>
+    <a href="#why">Почему мы?</a>
+    <a href="#about">О нас</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+
+  <section id="services">
+    <h2>Наши услуги</h2>
+    <div class="grid">
+      <div class="highlight">
+        <h3>Уничтожение клопов</h3>
+        <p>Быстро и эффективно устраняем клопов профессиональными средствами с гарантией результата.</p>
+      </div>
+      <div class="highlight">
+        <h3>Уничтожение тараканов</h3>
+        <p>Обработка жилых и коммерческих помещений от всех видов тараканов, включая устойчивые популяции.</p>
+      </div>
+      <div class="highlight">
+        <h3>Обработка от муравьёв, блох, мокриц</h3>
+        <p>Комплексные решения против мелких и ползающих насекомых.</p>
+      </div>
+      <div class="highlight">
+        <h3>Профилактика</h3>
+        <p>Периодическая защита от повторного заражения: безопасно и эффективно.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="prices">
+    <h2>Цены</h2>
+    <ul>
+      <li>1-комнатная квартира — от 2000 ₽</li>
+      <li>2-комнатная квартира — от 2500 ₽</li>
+      <li>3-комнатная квартира — от 3000 ₽</li>
+      <li>Офисы и склады — индивидуально по объёму</li>
+    </ul>
+    <p><strong>Выезд в пределах МКАД — бесплатно</strong>. За МКАД — обсуждается индивидуально.</p>
+  </section>
+
+  <section id="why">
+    <h2>Почему выбирают нас</h2>
+    <ul>
+      <li>Используем сертифицированные препараты</li>
+      <li>Опыт более 5 лет</li>
+      <li>Гарантия результата — до 1 года</li>
+      <li>Работаем 7 дней в неделю</li>
+      <li>Конфиденциальность и чистота</li>
+    </ul>
+  </section>
+
+  <section id="about">
+    <h2>О компании</h2>
+    <p>Компания «ДезСервис77» занимается профессиональной дезинсекцией помещений в Москве и Подмосковье. Мы работаем как с частными клиентами, так и с юридическими лицами. Обработка проводится по современным стандартам, с использованием новейших методик и оборудования.</p>
+    <p>Наша миссия — предоставить безопасную, быструю и гарантированную защиту от насекомых в любом типе помещений.</p>
+  </section>
+
+  <section id="contacts">
+    <h2>Контакты</h2>
+    <p class="contact">Телефон: <a href="tel:+79651544852">+7 (965) 154-48-52</a></p>
+    <p class="contact">WhatsApp / Telegram: <a href="https://wa.me/79651544852">написать</a></p>
+    <p class="contact">Работаем ежедневно: 08:00 — 22:00</p>
+    <a class="button" href="tel:+79651544852">Позвонить сейчас</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ДезСервис77. Все права защищены.</p>
+    <p>Москва и Московская область</p>
+  </footer>
+</body>
+</html>
